@@ -1,0 +1,167 @@
+@media all and (min-width 768px){
+
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  margin:0;
+  padding: 0;
+}
+
+#navbar {
+  background-color:#bd2f42;
+  position: fixed;
+ display: flex;
+ justify-content: flex-end;
+  width: 100%
+}
+#nav-list {
+  display: flex; flex-direction: row;
+
+}
+
+li {
+  list-style: none;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.4rem;
+  padding: 1.8rem;
+}
+
+
+.first-box{
+display: flex;
+justify-content:center;
+align-items: center;
+background: linear-gradient(#3a3d40 0%, #181719 );
+height:545px;
+width: 100%;
+line-height: 10px;
+}
+
+.parrafo-grande{
+  color: white;
+  font-size: 3.4rem;
+  
+  }
+
+  .parrafo-pequeño{
+    font-style: italic;
+    color: #b92e40;
+    font-size: 2.1rem;
+    text-align: center;
+    }
+
+    .second-box {
+      display: flex;
+      width: 100%;
+      background-color:#44557d;
+     height:auto;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+
+    
+      }
+
+      .title  {
+      color: white;
+      text-align: center;
+   margin-top: 70px;
+   text-decoration: underline;
+   font-size: 1.4rem;
+   font-style: italic;
+  margin-bottom: 100px;
+        }
+
+
+
+.box-medio {
+display: flex;
+ background-color:#44557d;
+flex-direction: row;
+ justify-content: space-around;
+ align-items: center;
+ width: 100%;
+ height: auto;
+flex-wrap: wrap;
+
+
+ }
+  
+ .box-item {
+  display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+font-weight: bold;
+text-decoration: none;
+border: 1px solid grey;
+margin-bottom: 50px;
+background-color: #2d353e;
+border-radius: 10px;
+} 
+
+.imgs {
+border-radius: 2px;
+
+} 
+
+.last-box {
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+background-color: #2d353e;
+
+} 
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #2d353e;
+  color: white;
+ line-height: 10px;
+  } 
+
+.parrafo-grandee{
+  font-size: 2.9rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  margin-top: 100px;
+
+  } 
+  .parrafo-pequeñoo{
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    
+   font-style: italic;
+    
+  
+    } 
+
+    .ultima-caja {
+    display: flex;
+    color: white;
+    font-style: arial;
+     font-weight: bold;
+     justify-content: center;
+     text-align: center;
+     border-top: 4px solid #b92e40;
+     width: 100%;
+padding: 10px;
+      } 
+      .ultima-cajaa:hover {
+        transform: translateY(8px);
+      }
+
+      .ultima-cajaa{
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+      }
